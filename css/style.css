@@ -1,0 +1,221 @@
+/* font family start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font family end */
+
+/* common start  */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+li {
+    list-style: none !important;
+}
+a {
+    text-decoration: none;
+}
+/* common end  */
+
+/* header bar start  */
+header {
+    padding: 15px 0;
+    background-color: #dcfcdc;
+}
+.menu ul li a {
+    padding: 0 25px !important;
+    color: #000000 !important;
+}
+.menu ul li a:hover{
+    color: #FD511A !important;
+}
+/* this css is common for all buttoon in this website  */
+.common_btn {
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+    background-color: #21B573;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.common_btn:hover {
+    /* color: white; */
+    background-color: #FD511A;
+}
+.common_btn:active {
+    background-color: #FD511A !important;
+}
+/* this css is common for all buttoon in this website  */
+.signin_btn {
+    margin-left: 20px;
+    width: 105px;
+    height: 45px;
+}
+/* header bar end  */
+
+/* bannner css start  */
+.banner {
+    padding-bottom: 65px;
+    background-color: #dcfcdc;
+}
+.b_p1 {
+    color: #FD511A;
+}
+.b_h {
+    margin: 10px 0 20px;
+    padding-right: 95px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.b_h span {
+    color: #21B573;
+}
+.b_p2 {
+    padding-right: 125px;
+    line-height: 36px;
+}
+.signin_btn2 {
+    margin-top: 15px;
+    width: 155px;
+    height: 45px;
+}
+/* bannner css end  */
+
+/* feature start  */
+.feature {
+    padding: 45px 0 100px;
+}
+.single_feature {    
+    padding: 50px 0;     /*  main  */
+    width: 280px;
+    height: 270px;
+    background-color: #dcfcdc;
+    border-radius: 10px;
+    transition: .33s ease;
+}
+.single_feature:hover {
+    background-color: white;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.2);
+    transform: scale(1.09);
+    cursor: pointer;
+}
+.single_feature h2 {
+    margin-top: 20px;
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.single_feature p {
+    color: #585859;
+}
+.single_img {
+    margin: auto;
+    width: 65px;
+    height: 85px;
+}
+/* feature end  */
+
+/* contact start  */
+.course_h1 {
+    /* border: 1px solid; */
+    color: #413960;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.course_opt {
+    margin-top: 60px !important;
+    padding: 24px 20px 30px;
+    width: 420px;
+    height: 530px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
+    transition: .33s ease;
+}
+.course_opt:hover {
+    background-color:#dcfcdc;
+    transform: scale(.97);
+    cursor: pointer;
+    box-shadow: none;
+}
+.course_h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.course_para {
+    margin: 3px 0 15px;
+    color: #585859;
+}
+.course_button {
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    Width: 137px;
+    Height: 35px;
+}
+.course_footer {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.left {
+    padding-right: 50px;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 2px;
+}
+/* contact end  */
+
+/* testimony start  */
+.testimony_item {
+    margin-top: 60px;
+}
+.testimony_img {
+    /* border: 1px solid; */
+    width: 140px;
+    height: 140px;
+}
+.testimony_para {
+    /* border: 1px solid; */
+    line-height: 30px;
+    color: #000000;
+}
+/* testimony end  */
+
+/* footer start  */
+.footer {
+    background-color: #282531;
+}
+.footer_main {
+    padding: 55px 0 65px;
+}
+.footer_para {
+    color: #FFF;
+    line-height: 30px;
+}
+.footer_list li a{
+    color: #FFF;
+    font-size: 15px !important;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer_list ul b {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer_list ul li a:hover {
+    color: #FD511A;
+}
+.footer_last_para {
+    padding-bottom: 25px;
+    color: #FFF;
+}
+/* footer end  */
